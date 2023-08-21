@@ -10,7 +10,7 @@ function fetchBreeds() {
     return axios.get(URL)
     .then (response => {
         if (response.status !== 200) {
-            throw new Error(response.status);
+            throw new Error();
         }
           return response.data;
     });
