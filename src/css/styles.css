@@ -1,0 +1,16 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.hidden {
+    display: none;
+  }
+  
+.visible {
+    display: block;
+}
+
+.cat-info {
+    display: flex;
+    margin-top: 20px;
+}
