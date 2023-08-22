@@ -50,7 +50,7 @@ select.addEventListener('change', event => {
     
     showLoader();
     hideError();
-
+    catInfo.innerHTML = '';
     fetchCatByBreed(selectedBreedId)
     .then(cat => {
         catInfo.innerHTML = `
